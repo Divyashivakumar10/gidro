@@ -158,10 +158,15 @@ while True:
 		print("Choise your payload type of SQLI \n")
 		print("1=Classic 2=BypassLogin 3=ErrorBased 4=UnionBased 5=TimeBased 6=Blind 7=VOICE_BASED : \n")
 		REPONSE = input(" -> ")
-		if reponse7 == "clear":
+		if REPONSE == "clear":
 			os.system("clear")
 			print("Choise your payload type of SQLI \n")
 			print("1=Classic 2=BypassLogin 3=ErrorBased 4=UnionBased 5=TimeBased 6=Blind 7=VOICE_BASED : \n")
 			REPONSE = input(" -> ")
 		else:
 			print("INVALID TRY 1 2 3 or 4 for menu")
+	elif REPONSE == "clear":
+		os.system("clear")
+		print("Choise your payload type of SQLI")
+		print("1=Classic 2=BypassLogin 3=ErrorBased 4=UnionBased 5=TimeBased 6=Blind 7=VOICE_BASED : \n")
+		REPONSE = input(" -> ")
