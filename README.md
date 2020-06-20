@@ -1,3 +1,13 @@
+# gidro 
+gidro is a simple tool that generates sql payloads of any type
+
+
+
+
+
+
+
+
 
 # Installation
 
